@@ -1,6 +1,11 @@
 
 // @import 'node_modules/font-awesome/scss/font-awesome';
-@import 'customizebootstrap';
+@import 'customize';
+
+// Override Bootstrap variables
+$secondary:$bg-color-maincontent;
+
+
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'base';
 @import 'scrollspy';

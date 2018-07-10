@@ -1,0 +1,16 @@
+// Custom Variable
+$bg-color-maincontent:#d6d7d8;
+
+
+// mixins
+@mixin text-overflowstyle($lineheight, $maxheight, $lineclamp){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: $lineheight;
+    max-height: $maxheight;
+    -webkit-line-clamp: $lineclamp;
+    -webkit-box-orient: vertical;
+}
+
+
