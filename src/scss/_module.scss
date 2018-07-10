@@ -1,0 +1,123 @@
+nav{
+    .container{
+
+        .navbar-brand{
+            img{
+                height: 1.8em;
+                width: 6em;
+                max-height: 2em;
+                max-width: 6em;
+                display: inline-block;
+            }
+        }
+        .nav-item a.nav-link{
+            font-size: 1.1rem;
+        }
+    }
+
+}
+
+
+#partners{
+    img{
+        height: 3rem;
+     width: 12rem;
+     margin-left: calc(50% - 6rem);
+    }
+
+    #partnercarousel{
+        max-width: 30rem;
+        background: #898c90;
+        padding: 3rem;
+        border: 5px double;
+      }
+}
+
+.section-content{
+    padding: 3rem 0;
+}
+
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 50px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+#elearning{
+    .features-icons-item{
+        .lead{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            line-height: 18px;
+            max-height: 55px;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            font-size: 1rem;
+        }
+    }
+    
+}
+
+#about{
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    .row{
+        .lead{
+            a{
+                text-decoration: underline;
+            }
+        }
+    }
+    .section-content{
+        .col-md-6{
+            img{
+                max-width: 10rem;
+                height: 15rem;
+                
+            }
+
+        }
+    }
+}
+
+#contact{
+    .container{
+        .card-body{
+            a{
+                text-decoration: underline;
+            }
+        }
+       
+    }
+}
+
+#register{
+    background-color: #525252;
+  }
+.copyright{
+    margin-bottom: 1rem;
+}
+
+footer {
+    #job
+    {
+    background: url(../images/job.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    cursor: pointer;
+    }
+    .social-icon{
+        font-size:1.4rem;
+        cursor: pointer;
+    }
+    
+}
