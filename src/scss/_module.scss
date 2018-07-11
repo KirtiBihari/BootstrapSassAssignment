@@ -98,6 +98,7 @@ footer {
     {
         @include set-background('../images/job.png', cover);
         cursor: pointer;
+        max-width: 10rem;
     }
     .social-icon{
         font-size:1.4rem;
