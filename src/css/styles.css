@@ -6395,3 +6395,7 @@ footer #job {
 footer .social-icon {
   font-size: 1.4rem;
   cursor: pointer; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #trainings .card .card-img-top {
+    height: 15rem; } }
