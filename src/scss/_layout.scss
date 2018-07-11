@@ -2,22 +2,18 @@
 header{
     position: relative;
     background-color: #587ea3;
-    background: url(../images/responsive-bg1.png) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    @include set-background('../images/responsive-bg1.png', cover);
 
-    .overlay {
-        position: absolute;
-        background-color: #5d5f5fe6;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        opacity: .3;
-    }
     .jumbotron{
+        .overlay {
+            position: absolute;
+            background-color: #5d5f5fe6;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: .3;
+        }
         background: transparent;
     }
 }

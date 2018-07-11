@@ -13,4 +13,17 @@ $bg-color-maincontent:#d6d7d8;
     -webkit-box-orient: vertical;
 }
 
+@mixin set-background($imgpath, $bg-size, $no-repeat:true){
+    @if $no-repeat == true{
+        background: url($imgpath) no-repeat center center;
+    }
+    @else{
+        background: url($imgpath) center center;
+    }
+    -webkit-background-size: $bg-size;
+    -moz-background-size: $bg-size;
+    -o-background-size: $bg-size;
+    background-size: $bg-size;
+}
+
 
